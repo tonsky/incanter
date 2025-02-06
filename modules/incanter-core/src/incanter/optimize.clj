@@ -19,6 +19,7 @@
 
 (ns ^{:doc "Optimization-relates functions."}
     incanter.optimize
+  (:refer-clojure :exclude [abs])
   (:use [incanter.core :only (plus minus div mult mmult symmetric-matrix ncol solve
                               matrix abs sel trans bind-columns to-list identity-matrix $=)])
   (:require [clojure.core.matrix :as m]))

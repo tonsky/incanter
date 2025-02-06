@@ -23,6 +23,7 @@
             (http://acs.lbl.gov/~hoschek/colt/)."
         :author "David Edgar Liebke"}
    incanter.zoo
+   (:refer-clojure :exclude [abs])
    (:import (cern.colt.list.tdouble DoubleArrayList))
    (:use incanter.backstage.zoo-commons
          [incanter.core :only ($ abs plus minus div mult mmult to-list bind-columns dataset

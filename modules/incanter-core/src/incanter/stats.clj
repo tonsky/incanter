@@ -28,6 +28,7 @@
             "
        :author "David Edgar Liebke, Bradford Cross and Joaquin Iglesias Turina"}
   incanter.stats
+  (:refer-clojure :exclude [abs])
   (:import [cern.colt.list.tdouble DoubleArrayList]
            [cern.jet.random.tdouble Gamma Beta Binomial ChiSquare DoubleUniform
                                     Exponential NegativeBinomial Normal Poisson

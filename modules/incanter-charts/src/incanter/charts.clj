@@ -27,6 +27,7 @@
             "
        :author "David Edgar Liebke"}
   incanter.charts
+  (:refer-clojure :exclude [abs])
   (:require [incanter.core :refer [$ matrix? dataset? vec? to-list plus minus div
                                    group-on bind-columns view save $group-by conj-cols
                                    grid-apply set-data col-names $data sel abs]
