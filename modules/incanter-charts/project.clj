@@ -1,4 +1,4 @@
-(defproject io.github.tonsky/incanter-charts "1.9.4"
+(defproject io.github.tonsky/incanter-charts "1.9.5"
   :description "Incanter-charts is the JFreeChart module of the Incanter project."
   :url "http://incanter.org/"
   :license {:name "Eclipse Public License"
@@ -7,7 +7,7 @@
         :url "https://github.com/incanter/incanter"
         :dir "modules/incanter-charts"}
   :min-lein-version "2.0.0"
-  :dependencies [[io.github.tonsky/incanter-io "1.9.4"]
+  :dependencies [[io.github.tonsky/incanter-io "1.9.5"]
                  [org.jfree/jfreechart "1.5.0"]
                  [clj-time "0.14.0" :exclusions [org.clojure/clojure]]]
   :deploy-repositories

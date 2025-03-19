@@ -1,4 +1,4 @@
-(defproject io.github.tonsky/incanter-core "1.9.4"
+(defproject io.github.tonsky/incanter-core "1.9.5"
   :description "Incanter-core is the core module of the Incanter project."
   :url "http://incanter.org/"
   :license {:name "Eclipse Public License"
