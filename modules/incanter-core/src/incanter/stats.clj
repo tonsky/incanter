@@ -47,6 +47,8 @@
             [clojure.core.matrix.linear :as l]
             [incanter.distributions :as dist]))
 
+(set! *warn-on-reflection* false)
+
 (defn scalar-abs
   "Fast absolute value function"
   [x]

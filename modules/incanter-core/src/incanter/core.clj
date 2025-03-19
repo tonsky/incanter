@@ -43,6 +43,8 @@
            (javax.swing JTable JScrollPane JFrame)
            (java.util Vector)))
 
+(set! *warn-on-reflection* false)
+
 (def ^{:dynamic true
        :doc "This variable is bound to a dataset when the with-data macro is used.
               functions like $ and $where can use $data as a default argument."}

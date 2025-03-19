@@ -76,6 +76,7 @@
                                          XYTextAnnotation
                                          XYPolygonAnnotation]))
 
+(set! *warn-on-reflection* false)
 
 
 (defmulti set-background-default

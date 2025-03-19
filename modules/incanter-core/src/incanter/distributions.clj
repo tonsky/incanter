@@ -26,6 +26,8 @@
         [clojure.math.combinatorics :only [combinations]]
         [incanter.core :only [gamma pow regularized-beta]]))
 
+(set! *warn-on-reflection* false)
+
 ;;utils
 (defn  next-raw
   "Wrapper fn to pull the next raw value from an
